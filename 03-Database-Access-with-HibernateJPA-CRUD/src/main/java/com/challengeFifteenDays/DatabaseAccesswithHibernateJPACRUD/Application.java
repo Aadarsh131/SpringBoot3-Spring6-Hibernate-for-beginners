@@ -16,7 +16,7 @@ public class Application {
 	}
 
 	@Bean
-	//for making command line application; it is executed after the spring boot has been loaded
+	//for making command line application; it is executed after the spring beans has been loaded
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO){
 		return runner-> {
 			Student a = new Student("Aadarsh","Shah","aadarshkumar131@gmail.com");
