@@ -15,7 +15,8 @@ import org.springframework.stereotype.Repository;
 import javax.swing.*;
 import java.util.List;
 
-@Repository //will give support for component scanning and exceptions translations of JDBC
+//@RestController, @Repository, and @Service is all under @Component (so there basic functionally is same, helps in injecting beans)
+@Repository
 public class StudentDAOimpl implements StudentDAO{
 
     private EntityManager entityManager;
