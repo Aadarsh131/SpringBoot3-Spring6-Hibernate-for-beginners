@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.challengeFifteenDays</groupId>
-	<artifactId>RestCRUDapisWithJPA-BasicProject</artifactId>
+	<artifactId>RestApiSecurity</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RestCRUDapisWithJPA-BasicProject</name>
+	<name>RestApiSecurity</name>
 	<description>Demo project for crud apis</description>
 	<properties>
 		<java.version>17</java.version>
@@ -27,6 +27,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
